@@ -1,7 +1,7 @@
 package Utilities::AddDir;
 require 5.001;
 require Exporter;
-#TEST COMMIT2
+#TEST COMMIT3
 
 sub fixpath {
   my $dir=shift;
