@@ -1,6 +1,7 @@
 test comment not for merge
 test comment not for merge2
 Different comment
+test test test
 2015-06-18 Shahzad Muzaffar  <Shahzad.Muzaffar@cern.ch>
 
 	* New filter 'ifversion' supported for toolfiles. Conditional
