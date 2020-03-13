@@ -1,3 +1,5 @@
+[sdd](https://lcgapp-services.cern.ch/root-jenkins/buildStatus/icon?job=root-nightly-master)
+
 ## Build Status
 | Branch | Nightly build status |
 |--------|------------|
