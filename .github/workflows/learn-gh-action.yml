@@ -1,5 +1,5 @@
 name: learn-github-actions
-on: [push]
+on: [push,webhook_dispatch]
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
