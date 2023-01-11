@@ -3,4 +3,4 @@ Following is/are the step(s) needed to install SCRAM.
   * @CMS_PATH@ with the CMS path. scram will look for @CMS_PATH@/etc/scramrc directory for extra configuration.
   * @SCRAM_VERSION@ with the SCRAM version string
 
-foo bar
+foo
