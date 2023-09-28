@@ -4,17 +4,23 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                 sh '''#!/bin/bash
+                 echo "Building.." 
+                 '''                
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                 sh '''#!/bin/bash
+                 echo "Testing.." 
+                 '''                
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                 sh '''#!/bin/bash
+                 echo "Deploying.." 
+                 '''                
             }
         }
     }
