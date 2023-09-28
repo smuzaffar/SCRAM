@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { node { label 'docker-build && amd64' } }
 
     stages {
         stage('Build') {
