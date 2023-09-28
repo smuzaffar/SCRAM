@@ -1,11 +1,10 @@
 pipeline {
-    agent { node { label 'docker-build && amd64' } }
+    agent any
 
     stages {
         stage('Build') {
             steps {
                 echo 'Building..'
-                docker ps -a
             }
         }
         stage('Test') {
