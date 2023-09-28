@@ -1,4 +1,4 @@
-pipeline {
+pipeline 
     agent { node { label 'docker-build && amd64' } }
 
     stages {
