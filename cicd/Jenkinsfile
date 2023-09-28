@@ -1,0 +1,22 @@
+pipeline {
+    agent { node { label 'docker-build && amd64' } }
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
+                docker ps -a
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
+}
