@@ -1,5 +1,5 @@
 pipeline {
-    agent { node { label "amd64" } }
+    agent any
 
     stages {
         stage("Build") {
