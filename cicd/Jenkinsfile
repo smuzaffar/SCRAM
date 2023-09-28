@@ -1,18 +1,18 @@
-pipeline 
-    agent { node { label 'docker-build && amd64' } }
+pipeline {
+    agent { node { label "amd64" } }
 
     stages {
-        stage('Build') {
+        stage("Build") {
             steps {
                  sh 'echo Building..'
             }
         }
-        stage('Test') {
+        stage("Test") {
             steps {
                  sh 'echo Testing..'
             }
         }
-        stage('Deploy') {
+        stage("Deploy") {
             steps {
                  sh 'echo Deploying..'
             }
