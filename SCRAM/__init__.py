@@ -6,6 +6,7 @@ from os import environ
 from os.path import join
 import traceback
 
+#Test comment 3
 logging_config = {"format": '%(levelname)s %(funcName)10s %(lineno)3d: %(message)s'}
 SCRAM_DEBUG = None
 if "SCRAM_DEBUG" in environ:
